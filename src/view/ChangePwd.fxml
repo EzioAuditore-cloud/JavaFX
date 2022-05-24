@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="controller.ChangePwdController">
+   <children>
+      <Label layoutX="177.0" layoutY="99.0" text="新密码">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <TextField fx:id="new_pwdTxt" layoutX="262.0" layoutY="97.0" prefHeight="33.0" prefWidth="161.0" />
+      <TextField fx:id="pwd_againTxt" layoutX="262.0" layoutY="159.0" prefHeight="33.0" prefWidth="161.0" />
+      <Label layoutX="155.0" layoutY="161.0" text="再次确认">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Button fx:id="okBtn" layoutX="189.0" layoutY="222.0" mnemonicParsing="false" onAction="#handleOK" prefHeight="40.0" prefWidth="93.0" style="-fx-background-color: #fff; -fx-background-radius: 0; -fx-border-color: #d3d1d1; -fx-border-width: 2;" text="确定">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="cancelBtn" layoutX="324.0" layoutY="222.0" mnemonicParsing="false" onAction="#handleCancel" prefHeight="40.0" prefWidth="93.0" style="-fx-background-color: #fff; -fx-background-radius: 0; -fx-border-color: #d3d1d1; -fx-border-width: 2;" text="取消">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

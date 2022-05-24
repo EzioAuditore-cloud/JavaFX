@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="controller.OperateController">
+   <children>
+      <Button fx:id="cancelBtn" layoutX="254.0" layoutY="262.0" mnemonicParsing="false" onAction="#handleCancel" prefHeight="40.0" prefWidth="93.0" style="-fx-background-color: #fff; -fx-background-radius: 0; -fx-border-color: #d3d1d1; -fx-border-width: 2;" text="退出">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="changeBtn" layoutX="235.0" layoutY="180.0" mnemonicParsing="false" onAction="#handleChange" prefHeight="40.0" prefWidth="131.0" style="-fx-background-color: #fff; -fx-background-radius: 0; -fx-border-color: #d3d1d1; -fx-border-width: 2;" text="修改密码">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="checkBtn" layoutX="235.0" layoutY="98.0" mnemonicParsing="false" onAction="#handleCheck" prefHeight="40.0" prefWidth="131.0" style="-fx-background-color: #fff; -fx-background-radius: 0; -fx-border-color: #d3d1d1; -fx-border-width: 2;" text="查看名片">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
