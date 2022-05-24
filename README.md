@@ -1,2 +1,2 @@
-# JavaFX
-个人做过的一些javafx小项目
+# JavaFX-CardSysApp
+一个javafx个人名片小项目
